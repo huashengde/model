@@ -1,0 +1,520 @@
+* {
+    box-sizing: border-box
+}
+
+.main {
+    max-width: 2000px;
+    margin: auto;
+    background-color: orange;
+    z-index: 2;
+}
+
+/*頂部設計*/
+.head_color {
+    background-color: orange;
+    width: 100%;
+    height: 210px;
+}
+
+.icon_pos {
+    width: 11%;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(248, 189, 26);
+    font-family: Arial;
+    margin-left: 75%;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(238, 186, 15);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(238, 186, 15);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+.a {
+    width: 100px;
+    height: 100px;
+}
+
+.b {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.b1 {
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.b2 {
+    font-size: 26px;
+}
+
+.c {
+    margin-left: 136px;
+}
+
+.c1 {
+    font-size: 26px;
+    margin-left: 320px;
+}
+
+
+.d {
+    float: left;
+}
+
+.e {
+    float: right;
+    width: 660px;
+}
+
+.f {
+    border-width: 3px;
+    border-style: solid;
+    width: 150px;
+    height: 30px;
+    border-color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+}
+
+.g {
+    border: 2px rgb(170, 165, 165) solid;
+    padding: 5px;
+}
+
+.w {
+    background-color: white;
+    width: 1897px;
+    height: 60px;
+}
+
+
+.form {
+    background-color: white;
+    width: 1630px;
+    margin-left: 130px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 730px;
+    height: 630px;
+    margin: 60px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#index {
+    position: absolute;
+    left: 320px;
+    bottom: -4.3px;
+
+}
+
+#index li {
+    width: 8px;
+    height: 8px;
+    border: solid 1px rgb(182, 177, 177);
+    border-radius: 100%;
+    background-color: #eee;
+    display: inline-block;
+}
+
+#img {
+    width: 3600px;
+    /*不給寬高無法移動*/
+    height: 435px;
+    position: absolute;
+    /*不定義absolute，js無法設定left和top*/
+    z-index: 1;
+}
+
+#img li {
+    width: 720px;
+    height: 405px;
+    float: left;
+}
+
+#index .on {
+    background-color: black;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.btn-numbox {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.btn-numbox li {
+    float: left;
+}
+
+.btn-numbox li .number,
+.kucun {
+    display: inline-block;
+    font-size: 20px;
+    color: #646363;
+    vertical-align: sub;
+}
+
+.btn-numbox .count {
+    overflow: hidden;
+    margin: 0 10px 0 -9px;
+}
+
+.btn-numbox .count .num-jian,
+.input-num,
+.num-jia {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.btn-numbox .count .num-jia {
+    margin-left: 1px;
+}
+
+.btn-numbox .count .input-num {
+    width: 50px;
+    height: 50px;
+    color: #333;
+    border-left: 0;
+    border-right: 0;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+.rating {
+    width: 500px;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    left: -230px;
+}
+
+.rating>label {
+    float: right;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 1.1em;
+    cursor: pointer;
+    color: #000;
+    font-size: 50px;
+}
+
+.rating>label:hover,
+.rating>label:hover~label,
+.rating>input.radio-btn:checked~label {
+    color: transparent;
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before,
+.rating>input.radio-btn:checked~label:before,
+.rating>input.radio-btn:checked~label:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+}
+
+.end {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+
+}
+
+.contact_pos {
+    font-size: 20px;
+    color: white;
+    margin-left: 21cm;
+    padding: 31px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 25px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.comment_topic {
+    font-size: 50px;
+}
+
+.txtara {
+    font-size: 30px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.back-to-top {
+    display: none;
+    /* 默認是隱藏的，這樣在第一屏才不顯示 */
+    position: fixed;
+    /* 位置是固定的 */
+    bottom: 10px;
+    /* 顯示在頁面底部 */
+    right: 20px;
+    /* 顯示在頁面的右邊 */
+    z-index: 99;
+    /* 確保不被其他功能覆蓋 */
+    border: 1px solid orange;
+    /* 顯示邊框 */
+    outline: none;
+    /* 不顯示外框 */
+    background-color: #fff;
+    /* 設置背景背景顏色 */
+    color: black;
+    /* 設置文本顏色 */
+    cursor: pointer;
+    /* 滑鼠移到按鈕上顯示手型 */
+    padding: 10px 15px 15px 15px;
+    /* 增加一些內邊距 */
+    border-radius: 10px;
+    /* 增加圓角 */
+    width: 5%;
+}
+
+.back-to-top:hover {
+    background-color: rgb(248, 189, 26);
+    /* 滑鼠移上去時，反轉顏色 */
+    color: #fff;
+}
